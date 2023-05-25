@@ -22,8 +22,6 @@ def operation():
 
 
 def test_message(operation):
-    assert message.get_message(operation) == """
-    26.08.2019 Перевод организации
+    assert message.get_message(operation) == """26.08.2019 Перевод организации
 Maestro 1596 83** **** 5199 -> Счет **9589
-31957.58 руб.
-    """
+31957.58 руб."""
