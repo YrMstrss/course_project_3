@@ -6,6 +6,7 @@ from course_project_3 import executed_operations
 def input_list():
     return [
             {'state': 'EXECUTED', 'id': 441945886},
+            {'no_key': 'EXECUTED', 'id': 230157932},
             {'state': 'CANCELED', 'id': 638231325},
             {'state': 'CANCELED', 'id': 153863158},
             {'state': 'EXECUTED', 'id': 231354132},
