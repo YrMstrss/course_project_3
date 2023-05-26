@@ -3,6 +3,11 @@ from course_project_3 import format_date
 
 
 def get_message(operation: dict):
+    """
+    По полученным данным из словаря генерирует сообщение пользователю
+    :param operation: Словарь с данными по операции
+    :return: Сообщение об операции
+    """
     date = format_date.format_date(operation['date'])
     description = operation['description']
     if 'from' not in operation.keys():

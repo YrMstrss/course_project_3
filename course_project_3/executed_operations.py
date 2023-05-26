@@ -1,4 +1,9 @@
 def get_executed_operations(operation_list: list):
+    """
+    Функция игнорирует операции статус перевода которых неизвестен
+    :param operation_list: Список со словарями с данными по операциям
+    :return: Список из 5 успешных операций
+    """
     executed_operations = []
     for operation in operation_list:
         if 'state' in operation.keys():

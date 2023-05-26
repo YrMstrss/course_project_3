@@ -1,4 +1,9 @@
 def format_from_account(input_from_account: str):
+    """
+    Форматирует номер счета отправителя, приводя его к виду, в котором часть номера срыта
+    :param input_from_account: Строка с номером счета отправителя
+    :return: Строка с отформатированным номером счета отправителя
+    """
     from_account_split = input_from_account.split(" ")
 
     account_list = []
@@ -26,6 +31,11 @@ def format_from_account(input_from_account: str):
 
 
 def format_to_account(input_to_account: str):
+    """
+    Форматирует номер счета получателя, приводя его к виду, в котором часть номера срыта
+    :param input_to_account: Строка с номером счета получателя
+    :return: Строка с отформатированным номером счета получателя
+    """
     to_account_split = input_to_account.split(" ")
     to_account_list = []
     for i in to_account_split[1]:
